@@ -1,4 +1,4 @@
--- Databricks notebook source
+
 -- MAGIC %md
 -- MAGIC 1.Criação da View vw_notbook_vendidos
 
@@ -23,9 +23,7 @@ select * from vw_notbook_vendidos
 -- MAGIC Nesta parte, eu criei uma view chamada vw_notbook_vendidos. Esta view é criada a partir da tabela notbook_vendidos. Três novas colunas são adicionadas à view: real_latest_price, que é o preço mais recente ajustado; real_old_price, que é o preço antigo ajustado para a moeda local (real); e desconto, que é o desconto aplicado ao produto.
 
 -- COMMAND ----------
-
--- MAGIC %md
--- MAGIC                     
+               
 
 -- COMMAND ----------
 
@@ -53,9 +51,7 @@ order by 2 desc
 -- MAGIC Naquela consulta, estou agrupando os dados por marca (marca_ajust) e calculando a média dos preços mais recentes ajustados (real_latest_price). Utilizei a função CASE para ajustar a marca 'lenovo' para 'Lenovo'. Os resultados são ordenados pela média dos preços mais recentes ajustados em ordem decrescente.
 
 -- COMMAND ----------
-
--- MAGIC %md
--- MAGIC                 
+           
 
 -- COMMAND ----------
 
@@ -63,9 +59,7 @@ order by 2 desc
 -- MAGIC 3.Consulta para Análise de Tipos de Memória RAM e Média de Preços
 
 -- COMMAND ----------
-
--- MAGIC %md
--- MAGIC            
+         
 
 -- COMMAND ----------
 
@@ -86,9 +80,7 @@ order by 2 desc
 -- MAGIC Nesta consulta, estou agrupando os dados por tipo de memória RAM (tipo_memoria_ajust) e calculando a média dos preços mais recentes ajustados (real_latest_price). Utilizei a função CASE para ajustar os tipos de memória RAM 'LPDDR3' para 'DDR3' e 'LPDDR4' ou 'LPDDR4X' para 'DDR4'. Os resultados são ordenados pela média dos preços mais recentes ajustados em ordem decrescente.
 
 -- COMMAND ----------
-
--- MAGIC %md
--- MAGIC       
+      
 
 -- COMMAND ----------
 
