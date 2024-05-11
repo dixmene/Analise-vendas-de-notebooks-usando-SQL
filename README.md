@@ -8,4 +8,4 @@ Query for RAM Type Analysis and Average Prices
 
 Query for RAM Type Analysis and Total Prices
 
-https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1862830821203577/1623429591235318/1852733776652914/latest.html
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1862830821203577/391222236115859/1852733776652914/latest.html
